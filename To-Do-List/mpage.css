@@ -1,0 +1,58 @@
+.header{
+    width: 400px;
+    height: 400 px;
+    background:rgba(0,0,0,0.4);
+    padding:40px;
+    color: white;
+    margin: 0 auto;
+    margin-top:50px;
+    text-align: center;
+    font-size: 30px;
+    animation-name:zoom;
+    animation-duration:3s;
+    animation-iteration-count: 2;
+    box-shadow: 0px 0px 32px 8px rgb(18,20,20), 0px 0px 4px 1px rgb(18,20,20) inset;
+}
+html{
+    background: url(images/mainpage.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ a:hover {
+    color: red;
+
+}
+
+.c{
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 32px 8px rgb(18,20,20), 0px 0px 4px 1px rgb(18,20,20) inset;
+}
+}
+.d{
+    color: white;
+}
+.link{
+    width: 80px;
+    height: 15px;
+    background:rgba(0,0,0,0.4);
+    color:white;
+    float:right;
+    margin-top: 1px;
+    margin-right: 57px;
+    padding: 60px;
+    font-size: 20px;
+    box-shadow: 0px 0px 32px 8px rgb(18,20,20), 0px 0px 4px 1px rgb(18,20,20) inset;
+}
+ .log : hover {
+    color:blue;
+}
+@keyframes zoom{
+    0% {transform:rotate(0) scale(1) }
+    25% {transform:rotate(3) scale(1) }
+    50% {transform:rotate(6deg) scale(1) }
+    75% {transform:rotate(-6deg) scale(1) }
+    100% {transform:rotate(6-3) scale(1) }
+}
+
