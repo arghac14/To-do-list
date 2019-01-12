@@ -2,4 +2,4 @@
 To-do-list web application containing login feature which can add,view and delete specific tasks.
 
 # NOTE:
-Run the login.php file in the 'login' folder using XAMPP
+Run the login/login.php file.
